@@ -1,11 +1,18 @@
-ESP-IDF template app
-====================
+# SenseCAP Indicator project template
 
-This is a template application to be used with [Espressif IoT Development Framework](https://github.com/espressif/esp-idf).
+This is a standalone project, 'indicator_basis', independent from the [SenseCAP Indicator ESP32 example](https://github.com/Seeed-Solution/sensecap_indicator_esp32).
 
-Please check [ESP-IDF docs](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html) for getting started instructions.
+## Usage
 
-*Code in this repository is in the Public Domain (or CC0 licensed, at your option.)
-Unless required by applicable law or agreed to in writing, this
-software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-CONDITIONS OF ANY KIND, either express or implied.*
+> On GitHub, utilize it as a template.
+
+The two resources mentioned are commonly used to land the SenseCAP Indicator ESP32 project.
+- [The ESP-IDF examples↗](https://github.com/espressif/esp-idf/tree/master/examples) from Espressif. These examples cover a wide range of applications and can be very helpful when developing projects based on the ESP32 microcontroller.
+- [The SenseCAP Indicator ESP32 example↗](https://github.com/Seeed-Solution/sensecap_indicator_esp32) from Seeed Solution. This repository contains the SDK for the SenseCAP Indicator device. It provides several examples demonstrating how to utilize the ESP32 functions for various applications, such as displaying sensor data, implementing time and configuration functions, and facilitating communication using LoRa.
+
+
+## changelog
+
+### v1.0.0 ###
+2023/07/26
+* Initial version.

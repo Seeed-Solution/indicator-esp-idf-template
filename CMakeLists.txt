@@ -3,4 +3,9 @@
 cmake_minimum_required(VERSION 3.5)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(app-template)
+
+set(EXTRA_COMPONENT_DIRS  components)
+
+add_compile_options(-fdiagnostics-color=always -w)
+
+project(indicator_basis)
