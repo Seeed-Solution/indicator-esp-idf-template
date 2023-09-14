@@ -1,7 +1,8 @@
 {
     "configurations": [
         {"name": "Win32",
-            "compilerPath": "${env:USERPROFILE}/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc.exe",
+            // "compilerPath": "${env:USERPROFILE}/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc.exe",
+            "compilerPath": "C:/Espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc.exe",
             "includePath": [
                 "${env:ESP_IDF_PATH}/components/**",
                 "${workspaceFolder}/components/bsp/include",
